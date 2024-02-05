@@ -1,4 +1,4 @@
-###Description:
+###Description###:
 
 Welcome to a modern and secure user registration and sign-in system built using Node.js and MongoDB. This project serves as a foundation for developers looking to implement robust user authentication features in their applications.
 
