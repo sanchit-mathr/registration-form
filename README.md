@@ -1,8 +1,8 @@
-###Description###:
+### Description:
 
 Welcome to a modern and secure user registration and sign-in system built using Node.js and MongoDB. This project serves as a foundation for developers looking to implement robust user authentication features in their applications.
 
-###Features:
+### Features:
 User Registration:
 
 Utilizes an Express server to handle HTTP requests.
@@ -17,23 +17,36 @@ Express Middleware:
 
 Body-parser middleware is utilized to parse JSON data in requests.
 Express server handles the routing for user registration and sign-in.
-###Getting Started:
+### Getting Started:
 Clone the Repository:
 
 Clone this repository to your local machine using git clone.
-###Install Dependencies:
+### Install Dependencies:
 
 Navigate to the project directory and run npm install to install the necessary dependencies.
-###Configure MongoDB:
+### Configure MongoDB:
 
 Set up your MongoDB connection string in server.js to establish a connection with your MongoDB database.
-###Run the Server:
+### Run the Server:
 
 Execute node server.js to start the Express server.
-###Test Registration and Sign-In:
+Install Node.js Dependencies:
+In your project folder, open a terminal and run:
+"npm init -y
+npm install express mongoose body-parser"
+To run the server use the code
+"Node.js"
+Before that make sure that node.js and mongoDB is installed in your computer
+
+after that try assessing the server via localhost 
+
+if localhost don't work then check the mongoDB path in the environment variables.
+
+
+### Test Registration and Sign-In:
 
 Utilize a tool like Postman or curl to test the user registration and sign-in functionalities.
-###Customization:
+### Customization:
 Modify User Schema:
 
 Adjust the user schema in server.js to include additional fields based on your application's requirements.
