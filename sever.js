@@ -7,7 +7,7 @@ const app = express();
 const port = 3000;
 
 // MongoDB connection
-mongoose.connect('mongodb://localhost:27017/user-data', { useNewUrlParser: true, useUnifiedTopology: true });
+mongoose.connect('mongodb://localhost:27017/your-mongo database name', { useNewUrlParser: true, useUnifiedTopology: true });
 
 // Define a user schema
 const userSchema = new mongoose.Schema({
@@ -24,7 +24,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
 app.get('/', (req, res) => {
-    res.sendFile(path.join(__dirname, 'index.html'));
+    res.sendFile(path.join(__dirname, 'register.html'));
 });
 
 // Endpoint for user registration
